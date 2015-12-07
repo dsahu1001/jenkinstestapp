@@ -21,7 +21,7 @@ namespace Jenkins_net_test
         {
             var controller = new ProductController();
             var result = controller.Details(2) as ViewResult;
-            Assert.AreEqual("Detail", result.ViewName);
+            Assert.AreEqual("Details", result.ViewName);
 
         }
     }
